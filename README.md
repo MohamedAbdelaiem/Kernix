@@ -187,10 +187,6 @@ gcc -o test_generator test_generator.c
 - 📖 [Phase 1 Report](Project%20Phase%201.pdf) - Process Scheduling & IPC Implementation
 - 📖 [Phase 2 Report](Project%20Phase%202.pdf) - Memory Management & Buddy System
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -211,6 +207,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ Star this repository if you found it helpful! ⭐**
 
-[Report Bug](https://github.com/MohamedAbdelaiem/Kernix/issues) · [Request Feature](https://github.com/MohamedAbdelaiem/Kernix/issues) · [Documentation](docs/) · [Changelog](CHANGELOG.md)
+[Report Bug](https://github.com/MohamedAbdelaiem/Kernix/issues) · [Request Feature](https://github.com/MohamedAbdelaiem/Kernix/issues)
 
 </div>
