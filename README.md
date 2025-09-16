@@ -7,30 +7,30 @@
 
 > **A comprehensive operating system simulator implementing core OS functionalities including process scheduling, memory management, and inter-process communication.**
 
-## 🌟 Features
+## Features
 
-### 🎯 **Process Scheduling**
+### **Process Scheduling**
 - **Multiple Scheduling Algorithms**:
-  - 🔵 **Shortest Remaining Time Next (SRTN)** - Preemptive shortest job first
-  - 🟡 **Round Robin (RR)** - Time-sliced fair scheduling  
-  - 🔴 **Non-preemptive Highest Priority First (HPF)** - Priority-based scheduling (0 = highest, 10 = lowest)
+  -  **Shortest Remaining Time Next (SRTN)** - Preemptive shortest job first
+  -  **Round Robin (RR)** - Time-sliced fair scheduling  
+  -  **Non-preemptive Highest Priority First (HPF)** - Priority-based scheduling (0 = highest, 10 = lowest)
 - Real-time process state tracking and visualization
 - Comprehensive performance metrics and statistics
 
-### 🧠 **Memory Management (Buddy System)**
+###  **Memory Management (Buddy System)**
 - **Total Memory**: 1024 bytes with buddy allocation algorithm
 - **Process Size Limit**: Up to 256 bytes per process
 - Tree-based memory allocation with efficient splitting and merging
 - Automatic fragmentation reduction
 - Dynamic memory allocation/deallocation simulation with detailed logging
 
-### 🔗 **Inter-Process Communication (IPC)**
+###  **Inter-Process Communication (IPC)**
 - **Shared Memory**: High-speed data exchange between Process Generator and Scheduler
 - **Message Queues**: Reliable, structured communication for process coordination
 - **Clock Synchronization**: All components synchronized through shared clock process
 - POSIX IPC mechanisms for safe concurrent access and resource cleanup
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 The simulator provides detailed analytics including:
 - **CPU Utilization** - Percentage of time CPU is actively executing processes
@@ -39,7 +39,7 @@ The simulator provides detailed analytics including:
 - **Standard Deviation of WTA** - Measure of scheduling consistency
 - **Memory Allocation Efficiency** - Fragmentation analysis and allocation success rates
 
-## 🛠️ Installation
+##  Installation
 
 ### Requirements
 - Unix/Linux environment
@@ -72,7 +72,7 @@ gcc -o clk clk.c
 ./os-sim
 ```
 
-## 🎮 Usage
+##  Usage
 
 ### Basic Execution
 ```bash
@@ -101,7 +101,7 @@ Create a `processes.txt` file with the following format:
 - `priority`: Priority level (0 = highest, 10 = lowest)
 - `memsize`: Memory required in bytes (≤ 256)
 
-## 📊 Output Files
+##  Output Files
 
 | File | Description |
 |------|-------------|
@@ -125,7 +125,7 @@ Avg Waiting = 1.5
 Std WTA = 0.35
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
                     ┌─────────────────┐
@@ -165,7 +165,7 @@ Std WTA = 0.35
 4. **Processes** execute and communicate completion back to scheduler
 5. **Memory** is freed by Process Generator when processes terminate
 
-## 🔬 Testing
+##  Testing
 
 ### Run Test Suite
 ```bash
@@ -210,3 +210,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [Report Bug](https://github.com/MohamedAbdelaiem/Kernix/issues) · [Request Feature](https://github.com/MohamedAbdelaiem/Kernix/issues)
 
 </div>
+
